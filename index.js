@@ -14,3 +14,18 @@ function calculateTax(monthlyIncome, monthlyExpense) {
 }
 const totalIncome = calculateTax(34000, 1753);
 console.log(totalIncome);
+
+
+//  problem - 02
+
+function sendNotification(email) {
+    if (email.indexOf('@') === -1) {
+        return "Invalid Email"
+    }
+    let convertArr = email.split("@");
+    let b = convertArr[0] + " sent you an email from " + convertArr[convertArr.length-1]
+    return b;
+}
+const userEmail = "nadim.naem5@outlook.com";
+const notification = sendNotification(userEmail)
+console.log(notification);
