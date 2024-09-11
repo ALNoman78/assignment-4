@@ -13,4 +13,5 @@ function checkDigitsInName(name) {
 }
 console.log(checkDigitsInName("n2oman"));
 
-//if name + number = string function will print boolean value tru
+//if name + number = string function will print boolean value true / false
+

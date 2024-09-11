@@ -6,11 +6,10 @@ function checkDigitsInName(name) {
     for(let i = 0; i < arr.length ; i++){
         if(name.includes(arr[i])){
             return true;
-        }else{
-            return false;
         }
     }
+    return false;
 }
-const name = "raju123"
+const name = "raju"
 const va = checkDigitsInName(name);
 console.log(va);
