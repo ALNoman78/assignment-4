@@ -11,7 +11,7 @@ function checkDigitsInName(name) {
 
     return false;
 }
-console.log(checkDigitsInName("n2oman"));
+console.log(checkDigitsInName("noman"));
 
 //if name + number = string function will print boolean value true / false
 
