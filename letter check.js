@@ -8,7 +8,6 @@ function checkDigitsInName(name) {
         return true;
         }
     }
-
     return false;
 }
 console.log(checkDigitsInName("noman"));
